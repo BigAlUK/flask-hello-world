@@ -1,1 +1,1 @@
-web: gunicorn app:app --host 1.2.3.4 --port $PORT
+web: gunicorn app:app --host 127.0.0.1 --port $PORT
